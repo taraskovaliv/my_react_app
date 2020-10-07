@@ -1,0 +1,19 @@
+.Search {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    justify-content: center;
+    float: right;
+}
+
+.SearchText {
+    font-size: 18pt;
+    color: snow;
+    margin-right: 10px;
+}
+
+.Search input {
+    font-size: 18pt;
+    color: #745c97;
+}

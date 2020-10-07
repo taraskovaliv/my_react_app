@@ -1,0 +1,18 @@
+.Header {
+    position: relative;
+    background-color: #745c97;
+    height: 100px;
+    padding: 30px;
+    justify-content: center;
+    border-bottom-right-radius: 150px;
+}
+
+.HeaderText {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 32pt;
+    color: snow;
+    float: left;
+    width: auto;
+}
