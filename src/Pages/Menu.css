@@ -1,0 +1,33 @@
+.Menu {
+    background: #745c97;
+    position: absolute;
+    top: 160px;
+    height: 70%;
+    width: 20%;
+    margin: 0;
+}
+
+.Menu h2 {
+    padding-left: 50px;
+    font-style: oblique;
+    font-size: 20pt;
+    color: snow;
+}
+
+.MenuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.MenuList li a {
+    padding: 20px 20px 20px 40px;
+    text-decoration: none;
+    font-size: 16pt;
+    color: snow;
+    display: block
+}
+
+.MenuList li a:hover {
+    background-color: #3c2e50;
+}
