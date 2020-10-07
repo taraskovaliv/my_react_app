@@ -1,0 +1,30 @@
+image: node:lastest
+
+stages:
+  - build
+  - test
+  - start
+
+build:
+  stage: build
+  script:
+    - echo "Start building App"
+    - npm install
+    - npm build
+    - echo "Build successfully!"
+
+test:
+  stage: test
+  script:
+    - echo "Testing App"
+    - npm install
+    - CI=true npm test
+    - echo "Test successfully!"
+
+start:
+  stage: start
+  script:
+    - echo "Running App"
+    - npm install
+    - npm start
+    - echo "Run successfully!"
