@@ -53,6 +53,7 @@ class News extends React.Component {
                                         <h2>{news.title}</h2>
                                         <label>Author: <i>{news.author}</i></label>
                                         <p>{news.description}</p>
+                                        {/* eslint-disable-next-line react/jsx-no-target-blank */}
                                         <a href={news.url} target="_blank">
                                             <button>Читати</button>
                                         </a>
